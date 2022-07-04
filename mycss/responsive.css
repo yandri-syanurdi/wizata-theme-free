@@ -1,0 +1,254 @@
+@media screen and (max-width: 940px) {
+  .tourc select,
+  .tourcs {
+    width: 24%;
+  }
+  .tourc button {
+    width: 25%;
+  }
+  .blogsearch input[type="search"],
+  .blogsearch select {
+    width: 31.833%;
+  }
+  .blogsearch button {
+    width: 33.333%;
+  }
+  .vdetail {
+    text-align: right;
+    padding: 8px;
+  }
+  .contain {
+    padding: 30px 20px 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banx,
+  .why {
+    width: 50%;
+  }
+  .banx:nth-child(2n + 1),
+  .why:nth-child(2n + 1) {
+    clear: both;
+  }
+  .banx:nth-child(3n + 1) {
+    clear: none;
+  }
+  .gridpad {
+    width: 50%;
+  }
+  #testislider,
+  .testi {
+    width: 100%;
+  }
+  .testi {
+    text-align: center;
+    border-bottom: 1px solid #f9f9f9;
+    margin-bottom: 30px;
+  }
+  .boxdetail,
+  .boxview {
+    width: 100%;
+    float: none;
+  }
+  .boxdetail {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .scontain,
+  .sidecontain {
+    width: 100%;
+    padding: 0;
+  }
+  .toursidebar {
+    width: 50%;
+    padding: 5px;
+    margin: 0 auto;
+  }
+  #tourform,
+  #tourreview {
+    width: 100%;
+    padding-right: 0;
+    border: none;
+  }
+  #tourreview img {
+    max-width: 280px;
+    margin: 0 10px 10px 0;
+    float: left;
+  }
+  .naviku {
+    background: #222;
+  }
+  .naviku > li {
+    float: none;
+    text-align: left;
+  }
+  .naviku ul {
+    display: block;
+    width: 100%;
+  }
+  .naviku li li .parent {
+    background-image: url(img/downArrow.png);
+    background-repeat: no-repeat;
+  }
+  .naviku li li.hover ul,
+  .naviku > li.hover > ul {
+    position: static;
+  }
+  .naviku li ul {
+    padding: 0;
+    background: #444;
+  }
+  .toggleMenu {
+    display: block;
+  }
+}
+@media screen and (max-width: 640px) {
+  #tourgoal {
+    width: 100%;
+    border: none;
+    padding: 0;
+  }
+  #tourgoal2 {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .footbarwidget {
+    width: 100%;
+    padding: 0;
+  }
+  .copyright {
+    margin-top: 40px;
+  }
+  .jumbo {
+    font-size: 200%;
+  }
+  .h2headline,
+  .intro h2,
+  .testi h2,
+  h1 {
+    font-size: 170%;
+  }
+  .big,
+  h2 {
+    font-size: 150%;
+  }
+  h3 {
+    font-size: 130%;
+  }
+  .listblog h2,
+  h4 {
+    font-size: 110%;
+  }
+  h5 {
+    font-size: 100%;
+  }
+  .rentdetail img {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .headlogo {
+    margin-bottom: 20px;
+  }
+  .headinfo,
+  .headlogo,
+  .listblog,
+  .tourt {
+    width: 100%;
+    text-align: center;
+  }
+  .tourcs {
+    display: none;
+  }
+  .blogsearch button,
+  .blogsearch input[type="search"],
+  .blogsearch select,
+  .tourc button,
+  .tourc select {
+    width: 100%;
+    margin-right: 0;
+  }
+  .blogsearch button,
+  .why h2 {
+    margin-top: 5px;
+  }
+  .banx,
+  .why {
+    width: 100%;
+    text-align: left;
+  }
+  .why img {
+    float: left;
+    margin: 0 5px 3px 0;
+  }
+  .gridpad {
+    width: 100%;
+  }
+  .listblog img {
+    float: none;
+    margin-bottom: 10px;
+  }
+  .toursidebar {
+    width: 70%;
+  }
+  #tourreview img {
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+  #datetour,
+  .jumdiv {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .harpil {
+    font-size: 90%;
+  }
+  .tomb {
+    width: 100%;
+    margin: 15px 0 10px;
+  }
+  #captcha_code,
+  #captchaimg,
+  .element1,
+  .element2,
+  .element3 {
+    width: 100%;
+    float: none;
+  }
+  .tabdetail {
+    margin-top: 15px;
+  }
+  .tabdetail .ui-state-default,
+  .tabdetail .ui-widget-content .ui-state-default,
+  .tabdetail .ui-widget-header .ui-state-default {
+    width: 100%;
+    border-radius: 0;
+    border-radius: 0;
+  }
+  .ui-state-active,
+  .ui-widget-content .ui-state-active,
+  .ui-widget-content .ui-state-active a,
+  .ui-widget-header .ui-state-active {
+    width: 100%;
+    background: #f5f5f5;
+    border-radius: 0;
+    border-radius: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .why {
+    text-align: center;
+  }
+  .why img {
+    float: none;
+  }
+  .toursidebar {
+    width: 100%;
+  }
+  .pilhar {
+    display: none;
+  }
+}

@@ -1,0 +1,99 @@
+<html>
+    <head>
+
+        <style>
+            .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button1 {
+     background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+        </style>
+
+        <script src="sweetalert2.all.min.js"></script>
+        <script src="sweetalert2.min.js"></script>
+        <link rel="stylesheet" href="sweetalert2.min.css">
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Include a polyfill for ES6 Promises (optional) for IE11 and Android browser -->
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+     
+
+    </head>
+  <body style="background-color:#6495ED;">
+      <center>
+    <br>
+    <!-- <h1><b style="color:white;"><u>Hai Cantik!♡ ♥💕❤😘❤️</u></b></h1> -->
+    <!-- http://localhost/gombal/Gombal-IT-main/gombalku.html -->
+    <!-- https://puntadewa.my.id/html/emoji/ -->
+    <h1><b style="color:white;text-shadow: 3px 2px 1px grey;
+    font-size: 30px;"><u>Hai Cantik!</u> <a style="color:red;">&#10084 &#10084</a></b></h1>
+    <h5 style="margin-top:-10px;">dari yandri syanurdi untuk mu</h5>
+    <!-- <img src="https://c.tenor.com/Z8ezUHZzcLoAAAAC/love.gif" /> -->
+    <img style="padding:20px;border:solid;border-width:1px;border-color:black;margin:10px;border-radius:50%;width:320px;height:300px;" src="love.gif" />
+    <h1 style="text-shadow: 3px 2px 1px grey;
+    font-size: 35px;"><i>Maukah kamu menjadi pacarku?</i></h1>
+    <div style="margin-left:-120px;">
+    <!-- <button class="button" id="btn_mau" onclick="alert('I LOVE YOU')">Mau</button>&nbsp; -->
+    <button class="button" id="btn_mau" onclick="swal('I LOVE YOU')">Mau</button>&nbsp;
+    <button class="button1 overout" id="btn_gamau"  style="position: absolute">
+       
+      Gamau
+    </button>
+    </div>
+    </center>
+  </body>
+  <script>
+    // function gamau(id) {
+    //   var mau = document.getElementById("btn_mau");
+    //   var i = Math.floor(Math.random() * 300) + 1;
+    //   var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+    //   id.style.left = i + "px";
+    //   id.style.top = j + "px";
+    // }
+
+     function gamau(id) {
+            var mau = document.getElementById("btn_mau");
+            var i = Math.floor(Math.random() * 300) + 1;
+            var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+            id.style.left = i + "px";
+            id.style.top = j + "px";
+        }
+  </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+
+    <script>
+        var i = 0;
+        $("button.overout")
+            .mouseover(function () {
+                // $("p", this).first().text("mouse over");
+                // $("p", this).last().text(++i);
+                var mau = document.getElementById("btn_mau");
+                 var id = document.getElementById("btn_gamau");
+                var i = Math.floor(Math.random() * 300) + 1;
+                var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+                id.style.left = i + "px";
+                id.style.top = j + "px";
+            })
+            .mouseout(function () {
+                // $("p", this).first().text("mouse out");
+            });
+    </script>
+    <!-- https://api.jquery.com/mouseenter/ -->
+</html>
